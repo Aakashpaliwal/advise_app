@@ -35,7 +35,7 @@ class App extends Component {
              <center>
              <h1 className="heading">{this.state.advice}</h1>
              </center>
-             <button className="button" onClick={() => this.fetchAdvice()}><span>GIVE ME ADVICE!</span></button>
+           {/*}<button className="button" onClick={() => this.fetchAdvice()}><span>GIVE ME ADVICE!</span></button>*/}
            </div>
          </div>
          );
